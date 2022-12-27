@@ -1,0 +1,40 @@
+
+.delete-modal {
+  background-color: var(--pink-pastill);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+.delete-modal h1 {
+  font-size: 1.8rem;
+  color: rgb(51, 47, 47);
+}
+.btns-delete-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  margin-top: 20px;
+}
+.btn-modal {
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 10px; */
+  transition: all 0.2s;
+  width: 100%;
+  color: rgb(51, 47, 47);
+}
+
+.btn-modal-apply {
+  background-color: var(--pink-pastill-deeper);
+  /* color: var(--white-50); */
+
+}
+
+.btn-modal-apply:hover {
+  background-color: #e0686e;
+}
+.btn-modal-reject:hover {
+  background-color: var(--white);
+}

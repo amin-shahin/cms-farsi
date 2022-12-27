@@ -1,0 +1,87 @@
+.btn-comment,.btn-close-comment{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--pink-pastill-deeper);
+    color: var(--white);
+    margin-top: 20px ;
+    transition: all .3s;
+    margin: 2px;
+    font-size: 15px;
+}
+.btn-comment:hover{
+    background: deeppink;
+}
+.heading-table{
+    height: 50px;
+
+}
+.heading-table td{
+line-height: 50px;
+}
+
+.btn-close-comment{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0;
+}
+.btn-close-comment:hover{
+    background: deeppink;
+    
+}
+.text-comment{
+    padding: 20px;
+    color: deeppink;
+}
+
+
+
+
+@media screen and (max-width:1200px) {
+    .comments-tr td.btn-comment{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+    .btn-view-comment{
+        padding: 6px 14px;
+        font-size: 13px;
+    
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+
+    tr.heading-table th{
+      padding: 5px !important;
+      font-size: 14px !important;
+     
+    }
+    tr.comments-tr td{
+      padding: 5px !important;
+      font-size: 14px !important;
+    }
+    .btn-comment{
+      padding: 5px 12px !important;
+      margin-right: 3px !important;
+      font-size: 10px;
+    }
+  
+  }
+  
+  @media screen and (max-width:450px) {
+    .btn-comment {
+      padding: 6px 12px;
+    }
+  }
+  
+  @media screen and (max-width:380px) {
+    .btn-comment {
+      padding: 4px 8px;
+      font-size: 10px;
+      font-weight: 100;
+    }
+    .img-product-table {
+      width: 50px;
+    }
+}

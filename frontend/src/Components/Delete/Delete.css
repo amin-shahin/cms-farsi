@@ -1,0 +1,19 @@
+/* 
+.can{
+    position: fixed;
+    left: 0 !important; 
+    top: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    transform: none !important;
+    background-color:rgba(0, 0, 0, 0.5);
+} */
+
+.modal{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

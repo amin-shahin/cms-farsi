@@ -1,0 +1,31 @@
+@import "./reset.css";
+
+@font-face {
+    font-family: Lalezar;
+    src: url(./fonts/Lalezar-Regular.ttf);
+}
+
+:root {
+    --white: #ffffff;
+    --white-50: #f0f0f0;
+    --blue: #471AAA;
+    --blue-sky:#4bbcf4;
+    --green-sea:#61c0bf;
+    --green-ocean:#bbdeb6;
+    --pink-pastill:#ffb6b9;
+    --pink-pastill-deep:#f2a0a3;
+    --pink-pastill-deeper:#e67c81;
+    --pink-salt:#fae3d9;
+}
+
+body {
+    background-color: var(--pink-salt);
+    display: flex;
+    direction: rtl;
+   
+}
+
+*, body, html {
+    font-family: Lalezar;
+}
+

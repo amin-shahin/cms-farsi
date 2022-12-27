@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  /* display: flex; */
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+@media screen and (max-width:800px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+}
+
+.sidebar {
+  /* flex: 1; */
+  /* height: 100%; */
+  grid-column:1/2 ;
+}
+.left {
+  /* flex: 4; */
+  grid-column:2/3 ;
+}

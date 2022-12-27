@@ -1,0 +1,30 @@
+.edit-modal{
+    padding: 30px;
+    background: var(--white);
+}
+.form-edit-container{
+    width: 100%;
+}
+
+.edit-modal h1{
+    font-size: 1.4rem;
+    text-align: center;
+    color: deeppink;
+}
+.form-edit-container-product-group{
+    display: flex;
+    flex-direction: column;  
+}
+
+.apply-edit-btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+   
+    background-color: var(--pink-pastill-deeper);
+    color: var(--white);
+    transition: all 0.3s;
+}
+
+.apply-edit-btn:hover{background-color: deeppink;}
